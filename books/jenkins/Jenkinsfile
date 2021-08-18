@@ -12,8 +12,8 @@ pipeline {
 
     environment {
         //TODO: Edit these vars as per your env
-        DEV_PROJECT = "tezubv-books-dev"
-        STAGE_PROJECT = "tezubv-books-stage"
+        DEV_PROJECT = "nexzde-books-dev"
+        STAGE_PROJECT = "nexzde-books-stage"
         APP_GIT_URL = "https://github.com/arkazero/DO288-apps"
         NEXUS_SERVER = "http://${RHT_OCP4_NEXUS_SERVER}/repository/nodejs"
 
