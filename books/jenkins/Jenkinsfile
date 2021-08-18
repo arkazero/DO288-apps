@@ -15,7 +15,7 @@ pipeline {
         DEV_PROJECT = "nexzde-books-dev"
         STAGE_PROJECT = "nexzde-books-stage"
         APP_GIT_URL = "https://github.com/arkazero/DO288-apps"
-        NEXUS_SERVER = "http://${RHT_OCP4_NEXUS_SERVER}/repository/nodejs"
+        NEXUS_SERVER = "http://nexus-common.apps.na45.prod.nextcle.com/repository/nodejs"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
